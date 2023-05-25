@@ -48,7 +48,7 @@ main {
   position: fixed;
   bottom: 130px;
   right: 20px;
-  background-color: #f36f0f;
+  background-color: #f87b22f5;
   color: white;
   padding: 10px 15px 10px 15px;
   border-radius: 20px;
@@ -56,4 +56,9 @@ main {
   font-size: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.BT:hover {
+  background-color: coral;
 }
